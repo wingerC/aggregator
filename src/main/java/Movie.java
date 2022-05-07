@@ -10,7 +10,7 @@ public class Movie {
     private String peers;
     private String torrentLink;
     private String urlPage;
-    private String poster = "/no_img.jpg";
+    private String poster = "";
 
     public Movie(String urlId, String date, String year, String title, String ruTitle, String enTitle,
                  String size, String peers, String torrentLink, String urlPage, String poster) {
